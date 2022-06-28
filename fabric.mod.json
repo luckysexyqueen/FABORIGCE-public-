@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "FABORIGCE",
+  "version": "${1.3.5}",
+
+  "name": "FABORIGCE Mod",
+  "description": "This is an FABORIGCE description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://github.com/luckysexyqueen/FABORIGCE",
+    "sources": "https://github.com/luckysexyqueen/FABORIGCE"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/FABORIGCE/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.FABORIGCE.FABORIGCEMod"
+    ]
+  },
+  "mixins": [
+    "FABORIGCE.mixins.json"
+  ],
+"main: [
+"META-INF.MANIFEST.MF
+ }, 
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

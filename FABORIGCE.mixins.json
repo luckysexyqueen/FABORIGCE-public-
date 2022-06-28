@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.FABORIGCE.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "FABORIGCEMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
